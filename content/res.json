@@ -1,0 +1,79 @@
+{
+  
+
+    "brand":"MASALA EGHAM",
+    "welcomeMsg1":"Welcome to ",
+    "welcomeMsg2":"Message 22222222",
+  
+    "welcomeDesc":"Authentic and yum Indian food takeaway and delivery!!!",
+  
+    "Constants": "----------------Contacts details -------------------",
+
+    "phone": "+44-771044 3166",
+    "phoneAdditonal": "00",
+    "email": "example@mail.com",
+    "emailAdditional": "mail2@yahoo.com",
+    "address": "High Street ,Egham <br> TW20 8H",
+  
+    "openingTimes": "Mon-Sat: 11AM - 5PM",
+  
+  
+  
+
+    "About us details": "----------------About us details -------------------",
+
+    "aboutUsHeader" : "This is about us header--",
+    "aboutUsContent" : "This is about us content-- laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta s",
+  
+    "aboutUsItem1" : "This is about us list item 1",
+    "aboutUsItem2" : "This is about us list item 2",
+    "aboutUsItem3" : "This is about us list item 3 --- laboris nisi ut aliquip ex ea commodo consequat. Duis aute",
+  
+    "aboutUsBottomContent" : "This is about us bottom content fof line many line whatever you wnat to add here--",
+  
+  
+    
+    "Menu details": "----------------MENU details -------------------",
+  
+    "Cetog details1": "----------------starter catg -------------------",
+    
+    "Item 1": "----------------ITEM -1 -------------------",
+   "item1Name" : "Aloo Paratha",
+   "item1Price" : "£4.00",
+  
+   "item1Ingredient" : "Potato, Wheat flour",
+   "item1Cetg" : "starters",
+  
+   "Item 2": "----------------ITEM -2 -------------------",
+   "item2Name" : "Dosa",
+   "item2Price" : "£4.00",
+   "item2Ingredient" : "Potato, Coconut, Wheat flour" ,
+   "item2Cetg" : "starters",
+   
+  
+   "Cetog details2": "----------------Specialty catg -------------------",
+  
+   "Item 5": "----------------ITEM -5 -------------------",
+    "item5Name" : "Dahi vada",
+    "item5Price" : "£4.00",
+    "item5Ingredient" : "Potato,curd, Wheat flour",
+    "item5Cetg" : "specialty",
+
+   "Item 6": "----------------ITEM -6 -------------------",
+   "item6Name" : "Dahi vada",
+   "item6Price" : "£4.00",
+   "item6Ingredient" : "Potato,curd, Wheat flour",
+   "item6Cetg" : "specialty",
+
+
+
+
+
+  
+   "ThanksMsg" : "Thank you, hope to see again soon!"
+  
+  
+  
+  
+
+}

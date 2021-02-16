@@ -28,10 +28,17 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  
+  <script src="content/constants.js"></script>
+  <script src="content/templates.js"></script>
+
   <!-- =======================================================
   * Template Name: Masala Egham - v1.0.0
   ======================================================== -->
 </head>
+<script>
+  //var phone = "234234234-000";
+</script>
 
 <body>
 
@@ -40,8 +47,8 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
 
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center"><span>07710443166</span></i>
-        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 5PM</span></i>
+        <i class="bi bi-phone d-flex align-items-center"><span>-<var>phone</var></span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span> <var>openingTimes</var></span></i>
       </div>
 
       <div class="languages d-none d-md-flex align-items-center">
@@ -57,20 +64,20 @@
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Masala Egham</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html"><var>brand</var></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#">Home</a></li>
-          <li><a class="nav-link scrollto" href="pages/about.html">About</a></li>
-          <li><a class="nav-link scrollto" href="pages/menu.html">Menu</a></li>
+          <li><a class="nav-link scrollto active" href="#home" onclick="replacePageContent('homeTemplate')">Home</a></li>
+          <li><a class="nav-link scrollto" href="#About" onclick="replacePageContent('aboutTemplate')">About</a></li>
+          <li><a class="nav-link scrollto" href="#menu" onclick="replacePageContent('menuTemplate')">Menu</a></li>
           
           <!-- <li><a class="nav-link scrollto" href="#specials">Specials</a></li>  
           <li><a class="nav-link scrollto" href="#events">Events</a></li>
           <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li> -->
-          <li><a class="nav-link scrollto" href="pages/gallery.html">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#Gallery" onclick="replacePageContent('galleryTemplate')">Gallery</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -89,7 +96,7 @@
             </ul>
           </li> -->
 
-          <li><a href="pages/contact-us.html">Contact mamta</a></li>
+          <li><a href="#contact-us" onclick="replacePageContent('contactUsTemplate')">Contact Us</a></li>
 
           <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
         </ul>
@@ -100,16 +107,20 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
+  
+
+  <main id="main">
+
+    <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1>Welcome to <span>Masala Egham</span></h1>
-          <h2>Authentic and yum Indian food takeaway and delivery!!!</h2>
+          <h1><var>welcomeMsg1</var><span> <var>brand</var></span></h1>
+          <p><var>welcomeDesc</var><p>
 
           <div class="btns">
-            <a href="pages/menu.html" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
+            <a href="#menu" onclick="replacePageContent('menuTemplate')" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
             <!-- <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a>
            -->
           </div>
@@ -122,8 +133,6 @@
       </div>
     </div>
   </section><!-- End Hero -->
-
-  <main id="main">
 
     <!-- ======= About Section ======= -->
     <!-- <section id="about" class="about">
@@ -171,24 +180,24 @@
           <div class="col-lg-4">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
               <span>01</span>
-              <h4>Hygiene</h4>
-              <p>Our food is Hygiene. you can eat any time ...</p>
+              <h4><var>specHeader1</var></h4>
+              <p><var>specDetails1</var></p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="200">
               <span>02</span>
-              <h4>Limited oily</h4>
-              <p>Very less oil used for even stuffed things , paratha ...etc</p>
+              <h4><var>specHeader2</var></h4>
+              <p><var>specDetails2</var></p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
               <span>03</span>
-              <h4> Health food</h4>
-              <p>We provide a range of healty food. Considering calories etc... vel nam quis</p>
+              <h4><var>specHeader3</var></h4>
+              <p><var>specDetails3</var></p>
             </div>
           </div>
 
@@ -873,12 +882,11 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Masala Egham</h3>
+              <h3><var>brand</var></h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                <var>address</var><br><br>
+                <strong>Phone:</strong> <var>phone</var><br>
+                <strong>Email:</strong> <var>email</var><br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -893,10 +901,10 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="pages/about.html">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="pages/services.html">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="pages/TnC.html">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#home" onclick="replacePageContent('homeTemplate')">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about" onclick="replacePageContent('aboutTemplate')">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services" onclick="replacePageContent('servicesTemplate')">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#TnC" onclick="replacePageContent('tncTemplate')">Terms of service</a></li>
               <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
             </ul>
           </div>
@@ -947,8 +955,10 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="content/control.js"></script>
 
+  <script src="assets/js/main.js"></script>
+  
 </body>
 
 </html>
