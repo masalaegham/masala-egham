@@ -60,7 +60,7 @@ var templates ={};
             <div class="phone">
               <i class="bi bi-phone"></i>
               <h4>Call:</h4>
-              <p><var>phone</var></p><var>mykey</var>
+              <p><var>phone</var></p>
             </div>
 
           </div>
@@ -107,8 +107,6 @@ var templates ={};
 
 /**
   * Template: Menu ------------------------
-  * 
-  * 
   * //copey below item and change item number like, item3 ,item3price, item3Iggre
   * 
   * <div class="col-lg-6 menu-item filter-starters">
@@ -147,133 +145,15 @@ var templates ={};
         <ul id="menu-flters">
           <li data-filter="*" class="filter-active">All</li>
           <li data-filter=".filter-starters">Starters</li>
-          <li data-filter=".filter-salads">Salads</li>
+          <li data-filter=".filter-salads">Main menu</li>
           <li data-filter=".filter-specialty">Specialty</li>
         </ul>
       </div>
     </div>
 
     <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
-
-      <div class="col-lg-6 menu-item filter-starters">
-        <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
-        <div class="menu-content">
-          <a href="#"><var>item1</var></a><span><var>item1Price</var></span>
-        </div>
-        <div class="menu-ingredients">
-        <var>item1Ingredient</var>
-        </div>
-      </div>
-
-      <div class="col-lg-6 menu-item filter-starters">
-        <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
-        <div class="menu-content">
-          <a href="#"><var>item2</var></a><span><var>item2Price</var></span>
-        </div>
-        <div class="menu-ingredients">
-        <var>item2Ingredient</var>
-        </div>
-      </div>
-
-      <div class="col-lg-6 menu-item filter-starters">
-        <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
-        <div class="menu-content">
-          <a href="#"><var>item3</var></a><span><var>item3Price</var></span>
-        </div>
-        <div class="menu-ingredients">
-        <var>item3Ingredient</var>
-        </div>
-      </div>
-
-      <div class="col-lg-6 menu-item filter-starters">
-        <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
-        <div class="menu-content">
-          <a href="#"><var>item4</var></a><span><var>item4Price</var></span>
-        </div>
-        <div class="menu-ingredients">
-        <var>item4Ingredient</var>
-        </div>
-      </div>
-
-      <div class="col-lg-6 menu-item filter-starters">
-        <img src="assets/img/menu/sweets/cake.jpg" class="menu-img" alt="">
-        <div class="menu-content">
-          <a href="#">special cake-</a><span>£3.00</span>
-        </div>
-        <div class="menu-ingredients">
-          sugar, special bun bread
-        </div>
-      </div>
-
-      <div class="col-lg-6 menu-item filter-starters">
-        <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
-        <div class="menu-content">
-          <a href="#">Onion bhaji</a><span>£2.50</span>
-        </div>
-        <div class="menu-ingredients">
-          Fried onion bhaji. COntains onions, gram flour
-        </div>
-      </div>
-
-      <div class="col-lg-6 menu-item filter-salads">
-        <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
-        <div class="menu-content">
-          <a href="#">Paneer Pakoda</a><span>£4.50</span>
-        </div>
-        <div class="menu-ingredients">
-          Cottage cheese, gram flour with chutney
-        </div>
-      </div>
-
-      <div class="col-lg-6 menu-item filter-specialty">
-        <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
-        <div class="menu-content">
-          <a href="#">Mixed bhaji</a><span>£2.50</span>
-        </div>
-        <div class="menu-ingredients">
-          bhaji made of onions and potatoes
-        </div>
-      </div>
-
-      <div class="col-lg-6 menu-item filter-starters">
-        <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
-        <div class="menu-content">
-          <a href="#">Pav bhaji</a><span>£4.95</span>
-        </div>
-        <div class="menu-ingredients">
-          traditional dish with mix veg. served with special pav bread
-        </div>
-      </div>
-
-      <div class="col-lg-6 menu-item filter-salads">
-        <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
-        <div class="menu-content">
-          <a href="#">Greek Salad</a><span>£6.95</span>
-        </div>
-        <div class="menu-ingredients">
-          Fresh spinach, crisp romaine, tomatoes, and Greek olives
-        </div>
-      </div>
-
-      <div class="col-lg-6 menu-item filter-salads">
-        <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
-        <div class="menu-content">
-          <a href="#">Spinach Salad</a><span>£5.95</span>
-        </div>
-        <div class="menu-ingredients">
-          Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
-        </div>
-      </div>
-
-      <div class="col-lg-6 menu-item filter-specialty">
-        <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
-        <div class="menu-content">
-          <a href="#">Paneer Roll</a><span>£5.95</span>
-        </div>
-        <div class="menu-ingredients">
-          Roll made up with paneer, potato and other veg
-        </div>
-      </div>
+    
+      #MenuTemplateGen
 
     </div>
 
