@@ -20,7 +20,7 @@ var templates ={};
 
     </div>
   </section>
-  <section id="contact" class="contact">
+  <section id="contact-us" class="contact">
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
@@ -132,7 +132,7 @@ var templates ={};
   </div>
   </section>
 
-  <section class="menu section-bg">
+  <section id="menu" class="menu section-bg">
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
@@ -174,7 +174,7 @@ var templates ={};
 
   </div>
   </section>
-  <section id="about" class="about">
+  <section id="About" class="about">
   <div class="container" data-aos="fade-up">
 
     <div class="row">
@@ -216,7 +216,7 @@ var templates ={};
 
   </div>
   </section>
-  <section id="gallery" class="gallery">
+  <section id="Gallery" class="gallery">
 
   <div class="container" data-aos="fade-up">
     <div class="section-title">
@@ -311,7 +311,7 @@ var templates ={};
   * Constants: HOME
   */
 
- templates['homeTemplate'] = `<section id="hero" class="d-flex align-items-center">
+ templates['homeTemplate'] = `<section id="home" class="d-flex align-items-center">
  <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
    <div class="row">
      <div class="col-lg-8">
