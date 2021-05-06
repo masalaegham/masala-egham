@@ -23,7 +23,7 @@ constants.CONTENT = {
   /**
   * Constants: Contacts details
   */
-  "phone":"+447587418345",
+  "phone":"+447710443166",
   "phoneAdditonal": "00",
   "email": "masalaegham@gmail.com",
   "emailAdditional": "mail2@yahoo.com",
@@ -34,30 +34,30 @@ constants.CONTENT = {
   /**
   * ------------Constants: Services details ---------------
   */
- "serviceHeader":"+447587418345",
+ "serviceHeader":"+447710443166",
  "serviceDetails": "this is my serivae , home delivery",
 
   /**
   * ------------Constants: Speciality on HOME ---------------
   */
  "specHeader1": "Hygeine",
- "specDetails1": "We are cetified level-2 Hygienic",
- "specHeader2": "Oil less",
- "specDetails2": "We are cetified level-2 Hygienic",
+ "specDetails1": "We are certified level-2 Hygienic",
+ "specHeader2": "Less Oil",
+ "specDetails2": "We try to use less oil as much possible",
  "specHeader3": "Healthy",
- "specDetails3": "We are cetified health",
+ "specDetails3": "We are certified health",
 
 
   /**
   * Constants: About us details
   */
   "aboutUsHeader" : "We are Egham based",
-  "aboutUsContent" : "This is about us content-- laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta s",
-  "aboutUsItem1" : "This is about us list item 1",
-  "aboutUsItem2" : "This is about us list item 2",
-  "aboutUsItem3" : "This is about us list item 3 --- laboris nisi ut aliquip ex ea commodo consequat. Duis aute",
+  "aboutUsContent" : "Masala Egham was created by two friends with a passion for cooking. Both hold Level 2 Hygiene Certificates and are serious about providing fantastic, fresh lunch options made using as little oil as possible. We provide special thali (lunches).",
+  "aboutUsItem1" : "These contain rice, roti, raita, plus vegetables and lentils of the day - a healthy choice that can be enjoyed daily.Please place your order 24 hours in advance via phone or WhatsApp (+447710443166). Alternatively, you can call us on the day and we will let you know what's available last-minute.",
+  "aboutUsItem2" : "our selection of healthy meals and Indian street food.",
+  "aboutUsItem3" : " Visit Menu page", 
 
-  "aboutUsBottomContent" : "This is about us bottom content fof line many line whatever you wnat to add here--",
+  "aboutUsBottomContent" : " thank you",
 
   /**
   * Constants: MENU details
@@ -187,14 +187,14 @@ constants.CONTENT = {
   },
   {
     "name" : "SHAHI PANEER",
-    "price" : "£5.00",
+    "price" : "£6.00",
     "ingrd" : "Paneer tossed with onion, tomato, cashew, heavy cream and special Indian spices",
     "itemCetg" : "Salads",
     "img" :"assets/img/menu/lobster-bisque.jpg"
   },
   {
     "name" : "MATAR PANEER",
-    "price" : "£5.00",
+    "price" : "£6.00",
     "ingrd" : "Garden peas and cottage cheese cooked in mild cream, onion, tomato puree and Indian spices.",
     "itemCetg" : "Salads",
     "img" :"assets/img/menu/lobster-bisque.jpg"
@@ -202,7 +202,7 @@ constants.CONTENT = {
 
   {
     "name" : "PALAK PANEER",
-    "price" : "£5.00",
+    "price" : "£6.00",
     "ingrd" : "Pan-fried cottage cheese with spiced spinach puree, flavour with ground cumin.",
     "itemCetg" : "Salads",
     "img" :"assets/img/menu/lobster-bisque.jpg"
@@ -274,7 +274,7 @@ constants.CONTENT = {
 
   {
     "name" : "CHOLE BHATURA",
-    "price" : "£5.00",
+    "price" : "£6.00",
     "ingrd" : "Chole Bhature is a punjabi concoction of spicy curried chickpeas (chole) & puffy fried white-flour bread (bhature)",
     "itemCetg" : "Salads",
     "img" :"assets/img/menu/lobster-bisque.jpg"
@@ -282,8 +282,8 @@ constants.CONTENT = {
 
   {
     "name" : "POTATO BHAJI AND PURI",
-    "price" : "£5.00",
-    "ingrd" : "Mashed potato mixed with Indian spices & served with 4 puffy wheat flour (Puri's)",
+    "price" : "£6.00",
+    "ingrd" : "Mashed potato mixed with Indian spices & served with 2 puffy wheat flour (Puri's)",
     "itemCetg" : "Salads",
     "img" :"assets/img/menu/lobster-bisque.jpg"
   },
@@ -298,8 +298,8 @@ constants.CONTENT = {
 
   {
     "name" : "SEMOLINA IDLI & SAMBHAR",
-    "price" : "£5.00",
-    "ingrd" : "Semolina ldli served with hot & spicy tangy daal. 6 ldli Pieces per plate.",
+    "price" : "£6.00",
+    "ingrd" : "Semolina ldli served with hot & spicy tangy daal. 4 ldli Pieces per plate.",
     "itemCetg" : "Salads",
     "img" :"assets/img/menu/lobster-bisque.jpg"
   },
